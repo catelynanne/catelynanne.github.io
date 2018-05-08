@@ -10,6 +10,15 @@ body{
 	font-family: 'Playfair Display', serif;
 }
 
+   iframe {
+    border-width: 0px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    float: center;
+}
+
+
 #logo {
 		display: block;
 		width: 100px;
@@ -19,6 +28,7 @@ body{
 		margin-bottom: auto;
 		text-align: center;
 }
+
 
 .header {
 	display: block;
@@ -34,7 +44,7 @@ body{
 
 h1 {
 	margin: 0 auto;
-	padding: 80px;
+	padding: 100px;
 	background-color: white;
 	border-bottom: 6px #000000;
 	border-bottom-style: solid;
@@ -54,7 +64,7 @@ h3 {
 
 ul {
 	background-color: white;
-	margin-top: 100px;
+	margin-top: auto;
 	font-size: 18px;
 	width: 1280px;
 	height: 0px;
@@ -62,10 +72,9 @@ ul {
 }
 
 ul li {
-	float: left;
+	float: center;
 	list-style-type: none;
-	padding-right: 100px;
-	padding-left: 100px;
+	width: 100%;
 	background-color: #9b6faa;
 }
 
